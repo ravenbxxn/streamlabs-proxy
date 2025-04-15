@@ -1,5 +1,5 @@
 export default async function handler(req, res) {
-  const streamlabsUrl = 'https://streamlabs.com/api/v6/1ee94624888da16/leaderboard/tip?interval=all';
+  const streamlabsUrl = 'https://streamlabs.com/api/v6/1ee94624888da16/leaderboard/tip?interval';
 
   try {
     const response = await fetch(streamlabsUrl);
